@@ -1,0 +1,19 @@
+{
+  "appId": "com.error.reporting",
+  "productName": "Error Reporting System",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "build/**/*",
+    "node_modules/**/*"
+  ],
+  "win": {
+    "target": ["nsis"],
+    "icon": "assets/icon.ico"
+  },
+  "mac": {
+    "target": ["dmg"],
+    "icon": "assets/icon.icns"
+  }
+} 
